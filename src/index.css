@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .heading{
+        @apply font-secondary font-black text-5xl text-[#23303e]
+    }
+    .learn-section{
+        @apply font-secondary uppercase tracking-wider text-lg cursor-pointer text-[#23303e] hover:underline decoration-4 decoration-yellow-400
+    }
+}
